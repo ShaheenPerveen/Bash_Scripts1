@@ -2,7 +2,7 @@
 
 # SYSTEM INFO CODES
 uname
-uname-a
+uname -a
 uname -r
 hostname
 uptime
@@ -61,3 +61,15 @@ who # who is logged in
  1096  wc -l samples.csv
  1097  wc -w samples.csv
  1098  grep ", ?," Sample.csv | wc -l
+
+
+ # NETWORKING COMMANDS
+
+ ifconfig -a # gives ip of your device
+
+ ping google.com # pings google, i.e. send icmp echo request to google
+
+ dig google.com # displays DNS info of google
+
+ host google.com # displays DNS ip address
+
