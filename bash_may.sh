@@ -86,6 +86,23 @@ l
  # compress files train1 nd train 2 using gzip gnu
 tar -cvzf file1.tar.gz train1.csv train2.csv
 
+# list contents of tar and zipped file
+tar -tvf file1.tar
+tar -tvf file1.tar.gz
+
+# Tar Usage and Options
+
+# c – create a archive file.
+# x – extract a archive file.
+# v – show the progress of archive file.
+# f – filename of archive file.
+# t – viewing content of archive file.
+# j – filter archive through bzip2.
+# z – filter archive through gzip.
+# r – append or update files or directories to existing archive file.
+# W – Verify a archive file.
+# wildcards – Specify patterns in unix tar command.
+
 # info on tar
  1243  info tar
 
