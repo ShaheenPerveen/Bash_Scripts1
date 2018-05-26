@@ -73,3 +73,36 @@ who # who is logged in
 
  host google.com # displays DNS ip address
 
+ # some tar and search commands
+
+ ls -l
+cd Bash
+l
+# create a file with combination of train1 and train 2
+  tar -cvf file.tar train1.csv train2.csv
+# extract files from tar file
+ tar -xvf file.tar
+ 
+ # compress files train1 nd train 2 using gzip gnu
+tar -cvzf file1.tar.gz train1.csv train2.csv
+
+# info on tar
+ 1243  info tar
+
+# search in file system
+# find files with names train everywhere
+locate train
+
+# find files with names in suffix everywhere
+locate train.csv
+
+# find files with size greater than 2000mb in home
+ind /home -size +2000MB
+
+# find files with size greater than 20MB in bash
+find /home/user/Bash -size +20M
+
+# find files with size less than 20MB in Bash
+find /home/user/Bash -size -20M
+
+
